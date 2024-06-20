@@ -1,0 +1,24 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Hacktober Fest
+theme: ["PaperMod"]
+params:
+  profileMode:
+    enabled: true
+    title: "Hacktober Fest" # optional default will be site title
+    subtitle: "Angkas Hackathon"
+    imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Find your team
+        url: "/team-finder"
+      - name: Register my team
+        url: "/team-registration"
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
